@@ -2,6 +2,9 @@ resource "azurerm_resource_group" "name" {
   name = "Dharaniii"
   location = "eastus"
   tags = { 
+    department = "IT"
+   }
+  tags = { 
     owner = "dev-env"
     name = "Dharaniii"
     }
